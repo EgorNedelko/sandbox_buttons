@@ -9,71 +9,123 @@
 </head>
 <body>
    <div class="container">
-      <!--buttons-->
+
+      <!--btns-->
       <div class="container buttons">
-         <h3 style="text-align: center;">BUTTONS</h3>
-
-         <div class="flex-container">
-            <div class="col">
-               <p>buttons-inner-text</p>
-      
-               <div class="item">
-                  <button type="submit">type-submit</button>
-               </div>
-      
-               <div class="item">
-                  <button type="reset">type-reset</button>
-               </div>
-            </div>
-
-            <div class="col">
-               <p>buttons-value</p>
-      
-               <div class="item">
-                  <button value="submitVALUE" type="submit">type-submit-value</button>
-               </div>
-      
-               <div class="item">
-                  <button value="resetVALUE" type="reset">type-reset-value</button>
-               </div>
-            </div>
-
-            <div class="col">
-               <p>buttons-name</p>
-      
-               <div class="item">
-                  <button name="submitNAME" type="submit">type-submit-name</button>
-               </div>
-      
-               <div class="item">
-                  <button name="resetNAME" type="reset">type-reset-name</button>
-               </div>
-            </div>
-
-            <div class="col">
-               <p>buttons-id</p>
-      
-               <div class="item">
-                  <button id="submitID" type="submit">type-submit-id</button>
-               </div>
-      
-               <div class="item">
-                  <button id="resetID" type="reset">type-reset-id</button>
-               </div>
-            </div>
-
-            <div class="col">
-               <p>buttons-class</p>
-      
-               <div class="item">
-                  <button class="btn-submit" type="submit">type-submit-class</button>
-               </div>
-      
-               <div class="item">
-                  <button class="btn-reset" type="reset">type-reset-class</button>
-               </div>
-            </div>
+               
+         <div class="item">
+            <label for="btnBTN-ID">btn-BTN-label-for</label>
+            <button type="button" value="btnBTN-VALUE" name="btnBTN-NAME" title="btnBTN-TITLE" id="btnBTN-ID" class="btnBTN-CLASS">btn-BTN-text</button>
          </div>
+
+         <div class="item">
+            <label for="btnBTN-ID2">btn-BTN-label-wrapped
+               <button type="button" value="btnBTN-VALUE" name="btnBTN-NAME" title="btnBTN-TITLE" id="btnBTN-ID2" class="btnBTN-CLASS">btn-BTN-text</button>
+            </label>
+         </div>
+
+         <div class="item">
+            <label for="btnSUBMIT-ID">btn-SUBMIT-label-for</label>
+            <button type="submit" value="btnSUBMIT-VALUE" name="btnSUBMIT-NAME" title="btnSUBMIT-TITLE" id="btnSUBMIT-ID" class="btnSUBMIT-CLASS">btn-SUBMIT-text</button>
+         </div>
+
+         <div class="item">
+            <label for="btnSUBMIT-ID2">btn-SUBMIT-label-wrapped
+               <button type="submit" value="btnSUBMIT-VALUE" name="btnSUBMIT-NAME" title="btnSUBMIT-TITLE" id="btnSUBMIT-ID2" class="btnSUBMIT-CLASS">btn-SUBMIT-text</button>
+            </label>
+         </div>
+
+         <div class="item">
+            <label for="btnRESET-ID">btn-RESET-label-for</label>
+            <button type="reset" value="btnRESET-VALUE" name="btnRESET-NAME" title="btnRESET-TITLE" id="btnRESET-ID" class="btnRESET-CLASS">btn-RESET-text</button>
+         </div>
+
+         <div class="item">
+            <label for="btnRESET-ID2">btn-RESET-label-wrapped
+               <button type="reset" value="btnRESET-VALUE" name="btnRESET-NAME" title="btnRESET-TITLE" id="btnRESET-ID2" class="btnRESET-CLASS">btn-RESET-text</button>
+            </label>
+         </div>
+              
+      </div>
+
+      <!--inpt-type-btns-->
+      <div class="container btns">
+
+         <div class="item">
+            <label for="buttonID">inpt-BUTTON-label-for</label>
+            <input type="button" value="buttonVALUE" name="buttonNAME" title="buttonTITLE" id="buttonID" class="buttonCLASS">
+         </div>
+
+         <div class="item">
+            <label for="buttonID2">inpt-BUTTON-label-wrapped
+               <input type="button" value="buttonVALUE" name="buttonNAME" title="buttonTITLE" id="buttonID2" class="buttonCLASS">
+            </label>
+         </div>
+         
+      </div>
+
+      <!--inpt-type-submit-->
+      <div class="container submit">
+
+         <div class="item">
+            <label for="submitID">inpt-SUBMIT-label-for</label>
+            <input type="submit" value="submitVALUE" name="submitNAME" title="submitTITLE" id="submitID" class="submitCLASS">
+         </div>
+
+         <div class="item">
+            <label for="submitID2">inpt-SUBMIT-label-wrapped
+               <input type="submit" value="submitVALUE" name="submitNAME" title="submitTITLE" id="submitID2" class="submitCLASS">
+            </label>
+         </div>
+
+      </div>
+      
+      <!--inpt-type-reset-->
+      <div class="container reset">
+
+         <div class="item">
+            <label for="resetID">inpt-RESET-label-for</label>
+            <input type="reset" value="resetVALUE" name="resetNAME" title="resetTITLE" id="resetID" class="resetCLASS">
+         </div>
+
+         <div class="item">
+            <label for="resetID2">inpt-RESET-label-wrapped
+               <input type="reset" value="resetVALUE" name="resetNAME" title="resetTITLE" id="resetID2" class="resetCLASS">
+            </label>
+         </div>
+
+      </div>
+
+      <!--inpt-type-checkbox-->
+      <div class="container checkbox">
+
+         <div class="item">
+            <label for="checkboxID">inpt-CHECKBOX-label-for</label>
+            <input type="checkbox" value="checkboxVALUE" name="checkboxNAME" title="checkboxTITLE" id="checkboxID" class="checkboxCLASS">
+         </div>
+
+         <div class="item">
+            <label for="checkboxID2">inpt-CHECKBOX-label-wrapped
+               <input type="checkbox" value="checkboxVALUE" name="checkboxNAME" title="checkboxTITLE" id="checkboxID2" class="checkboxCLASS">
+            </label>
+         </div>
+   
+      </div>
+
+      <!--inpt-type-radio-->
+      <div class="container radio">
+
+         <div class="item">
+            <label for="radioID">inpt-RADIO-label-for</label>
+            <input type="radio" value="radioVALUE" name="radioNAME" title="radioTITLE" id="radioID" class="radioCLASS">
+         </div>
+
+         <div class="item">
+            <label for="radioID2">inpt-RADIO-label-wrapped
+               <input type="radio" value="radioVALUE" name="radioNAME" title="radioTITLE" id="radioID2" class="radioCLASS">
+            </label>
+         </div>
+   
       </div>
    </div>
 </body>

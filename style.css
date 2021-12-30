@@ -11,6 +11,10 @@ html {
    background-color: rgb(243, 243, 243);
 }
 
+img {
+   margin-left: 25px;
+}
+
 h1,
 h2,
 h3,
@@ -24,13 +28,12 @@ li,
 span {
    /* max-width: fit-content; */
    font-weight: 400;
-   user-select: none;
+   /* user-select: none; */
 }
 #clickable {  
    max-width: fit-content;
 }
 
-a,
 p,
 div,
 li {
@@ -38,9 +41,14 @@ li {
    margin: 15px 0;
 }
 
-a {
+a:not(#lnkID2):not(#lnkID3):not(#lnkID4) {
    text-decoration: none;
    color: #000;
+   display: inline-block;
+   border: 1.5px solid gray;
+   border-radius: 25%;
+   padding: 8px;
+   vertical-align: middle;
 }
 
 button {
@@ -163,7 +171,17 @@ input[type="radio"] {
    background-color: rgb(223, 198, 235);
 }
 
-.container.text {
+.container.links {
+   padding: 25px;
+   background-color: rgb(235, 214, 198);
+}
+
+.container.forms {
+   padding: 25px;
+   background-color: rgb(198, 231, 235);
+}
+
+/* .container.text {
    background-color: rgb(198, 235, 224);
 }
 
@@ -173,7 +191,7 @@ input[type="radio"] {
 
 .container.password {
    background-color: rgb(201, 235, 198);
-}
+} */
 
 textarea {
    margin-left: 25px;
@@ -213,4 +231,11 @@ span.pressed {
 
 img.pressed {
    transform: scale(0.97);
+}
+
+
+/* FORM */
+fieldset {
+   margin-top: 15px;
+   padding: 25px;
 }
